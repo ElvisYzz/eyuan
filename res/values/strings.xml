@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- this is for wishcontent.xml -->
+	<string name="wishcontent_avatar">头像</string>
+    <!-- end of wishcontent.xml -->
+    
+    <!-- this is for submit.xml -->
+    <string name="submit_inputwish">在这里输入你的愿望吧 ：)</string>
+    <!-- end of submit.xml -->
+    
+    <!-- this is for menu.main.xml -->
+    <string name="action_settings">Settings</string>
+    <!-- end of menu.main.xml -->
+    
+    <!-- this is for manifest.xml -->
+    <string name="app_name">e愿</string>
+    <!-- end of manifest.xml -->
+    
+    <!-- this is for achievedwish.xml -->
+    <string name="achievedwish_avatar">头像</string>
+    <!-- end of manifest.xml -->
+    
+    <!-- this is for comment.xml -->
+    <string name="comment_avatar">头像</string>
+    <!-- end of comment.xml -->
+    
+    <!-- this is for achievingwish.xml -->
+    <string name="achievingwish_avatar">头像</string>
+    <!-- end of achievingwish.xml -->
+    
+    <!-- this is for registerinfo.xml -->
+     <string name="registerinfo_avatar">头像</string>
+     <string name="registerinfo_nameinfo">昵称：</string>
+     <string name="registerinfo_sexinfo">性别：</string>
+     <string name="registerinfo_provinceinfo">省份：</string>
+     <string name="registerinfo_schoolinfo">学校：</string>
+    <!-- end of registerinfo.xml -->
+    
+</resources>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/wishcontent_top_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/wishcontent_bg"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/wishcontent_top1_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" >
+
+            <ImageView
+                android:id="@+id/wishcontent_avatar_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/wishcontent_avatar_margin"
+                android:src="@drawable/ic_launcher"
+                android:background="@drawable/avatar_bg"
+                android:contentDescription="@string/wishcontent_avatar" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/wishcontent_top2_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/userinfo_bar_bg"
+            android:padding="5dp" >
+
+            <TextView
+                android:id="@+id/wishcontent_nickname_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/wishcontent_nickname_margin"
+                android:text="Anne"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/wishcontent_sex_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/wishcontent_sex_margin"
+                android:layout_toRightOf="@id/wishcontent_nickname_view"
+                android:background="@drawable/female" />
+
+            <TextView
+                android:id="@+id/wishcontent_location_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/wishcontent_location_margin"
+                android:text="东南大学"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/wishcontent_locationpic_view"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/wishcontent_locationpic_margin"
+                android:layout_toLeftOf="@id/wishcontent_location_view"
+                android:src="@drawable/school_bg" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/wishcontent_bottombg_white" >
+
+        <TextView
+            android:id="@+id/wishcontent_wishtext"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/wishcontent_wishlist_margin"
+            android:background="@drawable/wishcontent_edit_bg"
+            android:gravity="center"
+            android:padding="10dp"
+            android:textColor="@color/wishcontent_wishtext_black"
+            android:textSize="@dimen/wishcontent_wishlist_size" />
+
+        <Button
+            android:id="@+id/wishcontent_achievebutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/wishcontent_achievebutton_margin"
+            android:background="@drawable/unselect_button_adopt_up" />
+    </RelativeLayout>
+
+</LinearLayout>
