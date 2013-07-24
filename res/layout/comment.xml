@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/comment_bg_white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/comment_top_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff" >
+
+        <ImageView
+            android:id="@+id/comment_avatar_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|left"
+            android:layout_margin="@dimen/comment_avatar_margin"
+            android:layout_marginRight="@dimen/comment_avatar_margin"
+            android:contentDescription="@string/comment_avatar"
+            android:background="@drawable/avatar_bg" />
+
+        <TextView
+            android:id="@+id/comment_avatarnexttext_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:layout_margin="@dimen/comment_avatar_margin" />
+    </LinearLayout>
+
+    <ListView
+            android:id="@+id/comment_commentlist_view"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/comment_top_layout"
+            android:cacheColorHint="@null"
+            android:divider="@null"
+            android:fadingEdge="none"
+            android:scrollbars="none" >
+        </ListView>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/comment_bg" >
+
+        <EditText
+            android:id="@+id/comment_editcomment_text"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="@dimen/comment_editcommentbg_margin"
+            android:layout_weight="1"
+            android:background="@color/comment_editcomment_white"
+            android:textColor="@color/comment_editcomment_textcolor"
+            android:textSize="@dimen/comment_editcommenttextfont_size" >
+
+            <requestFocus />
+        </EditText>
+
+        <Button
+            android:id="@+id/comment_commit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/comment_commitcommentbtn_margin"
+            android:background="@drawable/submit_comment_btn_up" />
+    </LinearLayout>
+
+</RelativeLayout>

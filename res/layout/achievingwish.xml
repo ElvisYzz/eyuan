@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/achievingwish_top_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/wishcontent_bg"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/achievingwish_innertop1_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" >
+
+            <ImageView
+                android:id="@+id/achievingwish_avatar_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/achievingwish_avatar_margin"
+                android:src="@drawable/ic_launcher"
+                android:background="@drawable/avatar_bg"
+                android:contentDescription="@string/achievingwish_avatar" />
+
+            <ImageView
+                android:id="@+id/achievingwish_comment_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/achievingwish_comment_margin"
+                android:background="@drawable/comment_btn_up" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/achievingwish_innertop2_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/userinfo_bar_bg"
+            android:padding="5dp" >
+
+            <TextView
+                android:id="@+id/achievingwish_nickname_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/achievingwish_nickname_margin"
+                android:text="Anne"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/achievingwish_sex_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/achievingwish_sex_margin"
+                android:layout_toRightOf="@id/achievingwish_nickname_view"
+                android:src="@drawable/female" />
+
+            <TextView
+                android:id="@+id/achievingwish_location_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/achievingwish_location_margin"
+                android:text="东南大学"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/achievingwish_locationicon_view"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/achievingwish_locationpic_margin"
+                android:layout_toLeftOf="@id/achievingwish_location_view"
+                android:src="@drawable/school_bg" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/achievingwish_bottombg_white" >
+
+        <TextView
+            android:id="@+id/achievingwish_wishtext_view"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/wishcontent_edit_bg"
+            android:padding="10dp"
+            android:textColor="@color/achievingwish_wishtext_black"
+            android:textSize="@dimen/achievingwish_wishtext_size" />
+
+        <ListView
+            android:id="@+id/achievingwish_wishlist_view"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/linear2"
+            android:layout_below="@id/achievingwish_wishtext_view"
+            android:cacheColorHint="@null"
+            android:divider="@null"
+            android:fadingEdge="none"
+            android:scrollbars="none" >
+        </ListView>
+
+        <LinearLayout
+            android:id="@+id/achievingwish_manipulate_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:gravity="center" >
+
+            <Button
+                android:id="@+id/achievingwish_confirm_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/achievingwish_confirmbtn_margin"
+                android:background="@drawable/confirm_wish_up" />
+
+            <Button
+                android:id="@+id/achievingwish_cancel_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/achievingwish_cancelbtn_margin"
+                android:background="@drawable/cancel_btn_up" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>
