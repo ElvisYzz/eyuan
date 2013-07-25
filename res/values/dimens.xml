@@ -55,4 +55,9 @@
     <dimen name="lefttitle_bg_padding">3dp</dimen>
     <dimen name="lefttitle_backbutton_margin">12dp</dimen>
     <!-- end of lefttitle.xml -->
+    
+    <!-- this is for dialog.xml -->
+    <dimen name="dialog_msgtext1_margin">12dp</dimen>
+    <dimen name="dialog_iknowbutton_margin">24dp</dimen>
+    <!-- end of dialog.xml -->
 </resources>

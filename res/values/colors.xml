@@ -26,4 +26,8 @@
     <color name="registerinfo_titlebg_titlecolor">#add8e6</color>
     <!-- end of registerinfo.xml -->
     
+    <!-- this is for dialog.xml -->
+    <color name="dialog_msgtext_color">#333333</color>
+    <!-- end of dialog.xml -->
+    
 </resources>

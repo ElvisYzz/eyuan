@@ -19,11 +19,11 @@
             android:background="@drawable/myachieving_btn_down" />
 
         <Button
-            android:id="@+id/mywish_unachieve_button"
+            android:id="@+id/mywish_unadopted_button"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:background="@drawable/unachieve_btn_up" />
+            android:background="@drawable/unadopted_btn_up" />
 
         <Button
             android:id="@+id/mywish_achieved_button"
