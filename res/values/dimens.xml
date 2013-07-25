@@ -50,4 +50,9 @@
     <!-- this is for registerinfo.xml -->
     <dimen name="registerinfo_avatar_margin">24dp</dimen>
     <!-- end of registerinfo.xml -->
+    
+    <!-- this is for lefttitle.xml -->
+    <dimen name="lefttitle_bg_padding">3dp</dimen>
+    <dimen name="lefttitle_backbutton_margin">12dp</dimen>
+    <!-- end of lefttitle.xml -->
 </resources>
