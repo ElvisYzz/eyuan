@@ -30,4 +30,14 @@
     <color name="dialog_msgtext_color">#333333</color>
     <!-- end of dialog.xml -->
     
+    <!-- this is for register.xml -->
+    <color name="register_bg_color">#f5fffa</color>
+    <color name="register_alert_color">#ff0000</color>
+    <!-- end of register.xml -->
+    
+    <!-- this is for login.xml -->
+    <color name="login_bg_color">#f5fffa</color>
+    <color name="login_alert_color">#ff0000</color>
+    <!-- end of login.xml -->
+    
 </resources>

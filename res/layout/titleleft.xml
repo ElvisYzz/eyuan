@@ -3,16 +3,16 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:background="@drawable/title_bg_t"
-    android:padding="@dimen/lefttitle_bg_padding" >
+    android:padding="@dimen/titleleft_bg_padding" >
 
     <Button
-        android:id="@+id/back"
+        android:id="@+id/titleleft_back_button"
         style="?android:attr/buttonStyleSmall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_centerVertical="true"
-        android:layout_marginLeft="@dimen/lefttitle_backbutton_margin"
+        android:layout_marginLeft="@dimen/titleleft_backbutton_margin"
         android:background="@drawable/back_btn" />
 
 </RelativeLayout>

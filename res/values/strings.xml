@@ -36,4 +36,15 @@
      <string name="registerinfo_schoolinfo">学校：</string>
     <!-- end of registerinfo.xml -->
     
+    <!-- this is for register.xml -->
+    <string name="register_email">请输入Email账户</string>
+    <string name="register_pwd">输入密码</string>
+    <string name="register_pwdconfirm">确认密码</string>
+    <!-- end of register.xml -->
+    
+    <!-- this is for login.xml -->
+    <string name="login_email">请输入Email账户</string>
+    <string name="login_pwd">输入密码</string>
+    <!-- end of login.xml -->
+    
 </resources>

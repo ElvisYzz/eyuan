@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/title_bg_t"
+    android:padding="@dimen/titlesubmit_bg_padding" >
+
+    <Button
+        android:id="@+id/titlesubmit_back_button"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/titlesubmit_backbuttom_margin"
+        android:background="@drawable/back_btn" />
+
+    <Button
+        android:id="@+id/titlesubmit_commit_button"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/titlesubmit_commitbutton_margin"
+        android:background="@drawable/paper_plane" />
+
+</RelativeLayout>
