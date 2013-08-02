@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/submit_bg"
+    android:background="@drawable/submit_bg_pic"
     android:orientation="vertical" >
 
         <EditText
@@ -11,7 +11,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="@dimen/submit_up_margin"
-            android:background="@drawable/wish_edit_bg"
+            android:background="@drawable/submit_wishedit_bg"
             android:hint="@string/submit_inputwish"
             android:inputType="textMultiLine"
             android:textColorHint="#c0c0c0"

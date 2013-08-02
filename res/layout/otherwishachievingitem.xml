@@ -11,7 +11,7 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="14dp"
         android:src="@drawable/ic_launcher"
-        android:background="@drawable/avatar_achieving_bg" />
+        android:background="@drawable/otherwishachievingitem_avatarachieving_bg" />
 
     <TextView
         android:id="@+id/otherwishachievingitem_wishcontent_view"

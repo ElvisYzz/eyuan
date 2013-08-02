@@ -8,7 +8,7 @@
         android:id="@+id/achievedwish_top_layout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/wishcontent_bg"
+        android:background="@drawable/achievedwish_wishcontent_bg"
         android:orientation="vertical" >
 
         <RelativeLayout
@@ -24,7 +24,7 @@
                 android:layout_centerVertical="true"
                 android:layout_marginLeft="@dimen/achievedwish_avatar_margin"
                 android:src="@drawable/ic_launcher"
-                android:background="@drawable/avatar_bg"
+                android:background="@drawable/achievedwish_avatar_bg"
                 android:contentDescription="@string/achievedwish_avatar" />
 
             <ImageView
@@ -34,14 +34,14 @@
                 android:layout_centerVertical="true"
                 android:layout_alignParentRight="true"
                 android:layout_marginRight="@dimen/achievedwish_comment_margin"
-                android:background="@drawable/comment_btn_up" />
+                android:background="@drawable/achievedwish_commentbtn_up" />
         </RelativeLayout>
 
         <RelativeLayout
             android:id="@+id/achievedwish_innertop2_layout"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/userinfo_bar_bg"
+            android:background="@drawable/achievedwish_userinfobar_bg"
             android:padding="5dp" >
 
             <TextView
@@ -61,7 +61,7 @@
                 android:layout_centerVertical="true"
                 android:layout_marginLeft="@dimen/achievedwish_sex_margin"
                 android:layout_toRightOf="@id/achievedwish_nickname_view"
-                android:src="@drawable/female" />
+                android:src="@drawable/achievedwish_female_pic" />
 
             <TextView
                 android:id="@+id/achievedwish_location_view"
@@ -80,7 +80,7 @@
                 android:layout_centerVertical="true"
                 android:layout_marginRight="@dimen/achievedwish_locationpic_margin"
                 android:layout_toLeftOf="@id/achievedwish_location_view"
-                android:src="@drawable/school_bg" />
+                android:src="@drawable/achievedwish_school_bg" />
 
         </RelativeLayout>
     </LinearLayout>
@@ -94,7 +94,7 @@
             android:id="@+id/achievedwish_wishtext_view"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/wishcontent_edit_bg"
+            android:background="@drawable/achievedwish_wishcontentedit_bg"
             android:padding="10dp"
             android:textColor="@color/achievedwish_wishtext_black"
             android:textSize="@dimen/achievedwish_wishtext_size" />

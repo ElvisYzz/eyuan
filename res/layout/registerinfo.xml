@@ -16,7 +16,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="@dimen/registerinfo_avatar_margin"
-            android:background="@drawable/upload_avatar"
+            android:background="@drawable/registerinfo_upload_avatar"
             android:contentDescription="@string/registerinfo_avatar" />
 
         <TextView
@@ -30,7 +30,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:src="@drawable/divide" />
+            android:src="@drawable/registerinfo_divide_pic" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -57,7 +57,7 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/divide" />
+            android:src="@drawable/registerinfo_divide_pic" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -75,19 +75,19 @@
                 android:id="@+id/registerinfo_malesex_view"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/sexchoice_male_up" />
+                android:src="@drawable/registerinfo_sexchoicemale_up" />
 
             <ImageView
                 android:id="@+id/registerinfo_femalesex_view"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/sexchoice_female_up" />
+                android:src="@drawable/registerinfo_sexchoicefemale_up" />
         </LinearLayout>
 
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/divide" />
+            android:src="@drawable/registerinfo_divide_pic" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -116,7 +116,7 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/divide" />
+            android:src="@drawable/registerinfo_divide_pic" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -145,7 +145,7 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/divide" />
+            android:src="@drawable/registerinfo_divide_pic" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -158,7 +158,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:background="@drawable/register_complete_btn_up" />
+            android:background="@drawable/registerinfo_completebtn_up" />
     </LinearLayout>
 
 </ScrollView>

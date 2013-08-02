@@ -2,7 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:background="@drawable/title_bg_t"
+    android:background="@drawable/titlesubmit_bg_pic"
     android:padding="@dimen/titlesubmit_bg_padding" >
 
     <Button
@@ -13,7 +13,7 @@
         android:layout_alignParentLeft="true"
         android:layout_centerVertical="true"
         android:layout_marginLeft="@dimen/titlesubmit_backbuttom_margin"
-        android:background="@drawable/back_btn" />
+        android:background="@drawable/titlesubmit_back_btn" />
 
     <Button
         android:id="@+id/titlesubmit_commit_button"
@@ -23,6 +23,6 @@
         android:layout_alignParentRight="true"
         android:layout_centerVertical="true"
         android:layout_marginRight="@dimen/titlesubmit_commitbutton_margin"
-        android:background="@drawable/paper_plane" />
+        android:background="@drawable/titlesubmit_paper_plane" />
 
 </RelativeLayout>

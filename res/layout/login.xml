@@ -22,7 +22,7 @@
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@drawable/nickname" />
+                android:background="@drawable/login_nickname_pic" />
 
             <EditText
                 android:id="@+id/login_nickname_text"
@@ -44,7 +44,7 @@
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@drawable/password" />
+                android:background="@drawable/login_password_pic" />
 
             <EditText
                 android:id="@+id/login_pwd_text"
@@ -79,6 +79,6 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="@dimen/login_registerbutton_margin"
-        android:background="@drawable/register_btn_up" />
+        android:background="@drawable/login_registerbtn_up" />
 
 </LinearLayout>

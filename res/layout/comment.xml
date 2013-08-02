@@ -19,7 +19,7 @@
             android:layout_margin="@dimen/comment_avatar_margin"
             android:layout_marginRight="@dimen/comment_avatar_margin"
             android:contentDescription="@string/comment_avatar"
-            android:background="@drawable/avatar_bg" />
+            android:background="@drawable/comment_avatar_bg" />
 
         <TextView
             android:id="@+id/comment_avatarnexttext_view"
@@ -44,7 +44,7 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:background="@drawable/comment_bg" >
+        android:background="@drawable/comment_comment_bg" >
 
         <EditText
             android:id="@+id/comment_editcomment_text"
@@ -64,7 +64,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/comment_commitcommentbtn_margin"
-            android:background="@drawable/submit_comment_btn_up" />
+            android:background="@drawable/comment_submitcommentbtn_up" />
     </LinearLayout>
 
 </RelativeLayout>

@@ -8,7 +8,7 @@
         android:id="@+id/achievingwish_top_layout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/wishcontent_bg"
+        android:background="@drawable/achievingwish_wishcontent_bg"
         android:orientation="vertical" >
 
         <RelativeLayout
@@ -24,7 +24,7 @@
                 android:layout_centerVertical="true"
                 android:layout_marginLeft="@dimen/achievingwish_avatar_margin"
                 android:src="@drawable/ic_launcher"
-                android:background="@drawable/avatar_bg"
+                android:background="@drawable/achievingwish_avatar_bg"
                 android:contentDescription="@string/achievingwish_avatar" />
 
             <ImageView
@@ -34,14 +34,14 @@
                 android:layout_centerVertical="true"
                 android:layout_alignParentRight="true"
                 android:layout_marginRight="@dimen/achievingwish_comment_margin"
-                android:background="@drawable/comment_btn_up" />
+                android:background="@drawable/achievingwish_commentbtn_up" />
         </RelativeLayout>
 
         <RelativeLayout
             android:id="@+id/achievingwish_innertop2_layout"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/userinfo_bar_bg"
+            android:background="@drawable/achievingwish_userinfobar_bg"
             android:padding="5dp" >
 
             <TextView
@@ -61,7 +61,7 @@
                 android:layout_centerVertical="true"
                 android:layout_marginLeft="@dimen/achievingwish_sex_margin"
                 android:layout_toRightOf="@id/achievingwish_nickname_view"
-                android:src="@drawable/female" />
+                android:src="@drawable/achievingwish_female_pic" />
 
             <TextView
                 android:id="@+id/achievingwish_location_view"
@@ -80,7 +80,7 @@
                 android:layout_centerVertical="true"
                 android:layout_marginRight="@dimen/achievingwish_locationpic_margin"
                 android:layout_toLeftOf="@id/achievingwish_location_view"
-                android:src="@drawable/school_bg" />
+                android:src="@drawable/achievingwish_school_bg" />
 
         </RelativeLayout>
     </LinearLayout>
@@ -94,7 +94,7 @@
             android:id="@+id/achievingwish_wishtext_view"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/wishcontent_edit_bg"
+            android:background="@drawable/achievingwish_wishcontentedit_bg"
             android:padding="10dp"
             android:textColor="@color/achievingwish_wishtext_black"
             android:textSize="@dimen/achievingwish_wishtext_size" />
@@ -123,14 +123,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/achievingwish_confirmbtn_margin"
-                android:background="@drawable/confirm_wish_up" />
+                android:background="@drawable/achievingwish_confirmwish_up" />
 
             <Button
                 android:id="@+id/achievingwish_cancel_button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/achievingwish_cancelbtn_margin"
-                android:background="@drawable/cancel_btn_up" />
+                android:background="@drawable/achievingwish_cancelbtn_up" />
         </LinearLayout>
     </RelativeLayout>
 

@@ -3,7 +3,7 @@
     android:id="@+id/mywish_bg_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/achieving_time_bg"
+    android:background="@drawable/mywish_achievingtime_bg"
     android:orientation="vertical" >
 
     <LinearLayout
@@ -16,21 +16,21 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:background="@drawable/myachieving_btn_down" />
+            android:background="@drawable/mywish_myachievingbtn_down" />
 
         <Button
             android:id="@+id/mywish_unadopted_button"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:background="@drawable/unadopted_btn_up" />
+            android:background="@drawable/mywish_unadoptedbtn_up" />
 
         <Button
             android:id="@+id/mywish_achieved_button"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:background="@drawable/myachieved_btn_up" />
+            android:background="@drawable/mywish_myachievedbtn_up" />
     </LinearLayout>
 
     <FrameLayout

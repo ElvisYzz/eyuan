@@ -8,7 +8,7 @@
         android:id="@+id/wishcontent_top_layout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/wishcontent_bg"
+        android:background="@drawable/wishcontent_bg_pic"
         android:orientation="vertical" >
 
         <RelativeLayout
@@ -24,7 +24,7 @@
                 android:layout_centerVertical="true"
                 android:layout_marginLeft="@dimen/wishcontent_avatar_margin"
                 android:src="@drawable/ic_launcher"
-                android:background="@drawable/avatar_bg"
+                android:background="@drawable/wishcontent_avatar_bg"
                 android:contentDescription="@string/wishcontent_avatar" />
         </RelativeLayout>
 
@@ -32,7 +32,7 @@
             android:id="@+id/wishcontent_top2_layout"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/userinfo_bar_bg"
+            android:background="@drawable/wishcontent_userinfobar_bg"
             android:padding="5dp" >
 
             <TextView
@@ -52,7 +52,7 @@
                 android:layout_centerVertical="true"
                 android:layout_marginLeft="@dimen/wishcontent_sex_margin"
                 android:layout_toRightOf="@id/wishcontent_nickname_view"
-                android:background="@drawable/female" />
+                android:background="@drawable/wishcontent_female_pic" />
 
             <TextView
                 android:id="@+id/wishcontent_location_view"
@@ -71,7 +71,7 @@
                 android:layout_centerVertical="true"
                 android:layout_marginRight="@dimen/wishcontent_locationpic_margin"
                 android:layout_toLeftOf="@id/wishcontent_location_view"
-                android:src="@drawable/school_bg" />
+                android:src="@drawable/wishcontent_school_bg" />
         </RelativeLayout>
     </LinearLayout>
 
@@ -100,7 +100,7 @@
             android:layout_centerHorizontal="true"
             android:layout_gravity="center"
             android:layout_marginBottom="@dimen/wishcontent_achievebutton_margin"
-            android:background="@drawable/unselect_button_adopt_up" />
+            android:background="@drawable/wishcontent_adoptbtn_up" />
     </RelativeLayout>
 
 </LinearLayout>

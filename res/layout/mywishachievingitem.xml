@@ -15,7 +15,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="14dp"
             android:src="@drawable/ic_launcher"
-            android:background="@drawable/avatar_achieving_bg" />
+            android:background="@drawable/mywishachievingitem_avatarachieving_bg" />
 
         <TextView
             android:id="@+id/mywishachievingitem_wishcontent_view"
@@ -36,14 +36,14 @@
             android:id="@+id/mywishachievingitem_confirm_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@drawable/comfirm_mywish_btn_up" />
+            android:background="@drawable/mywishachievingitem_confirmmywishbtn_up" />
 
         <Button
             android:id="@+id/mywishachievingitem_cancel_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
-            android:background="@drawable/cancel_mywish_btn_up" />
+            android:background="@drawable/mywishachievingitem_cancelmywishbtn_up" />
     </LinearLayout>
 
 </LinearLayout>

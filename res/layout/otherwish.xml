@@ -3,7 +3,7 @@
     android:id="@+id/otherwish_bg_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/achieving_time_bg"
+    android:background="@drawable/otherwish_achievingtime_bg"
     android:orientation="vertical" >
 
     <LinearLayout
@@ -16,14 +16,14 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:background="@drawable/achieving_btn_down" />
+            android:background="@drawable/otherwish_achievingbtn_down" />
 
         <Button
             android:id="@+id/other_achieved_button"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:background="@drawable/achieved_btn_up" />
+            android:background="@drawable/otherwish_achievedbtn_up" />
     </LinearLayout>
 
     <FrameLayout
