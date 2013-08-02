@@ -10,24 +10,26 @@
         android:id="@+id/dialog_msgtext1_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
         android:layout_marginTop="@dimen/dialog_msgtext1_margin"
-		android:layout_centerHorizontal="true"
         android:text="谢谢你！"
         android:textColor="@color/dialog_msgtext_color" />
-	<TextView
+
+    <TextView
         android:id="@+id/dialog_msgtext2_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/dialog_msgtext1_view"
         android:layout_centerHorizontal="true"
         android:text="下面就等对方确认你成功帮TA实现愿望了哦~"
-        android:textColor="@color/dialog_msgtext_color"/>
+        android:textColor="@color/dialog_msgtext_color" />
+
     <Button
         android:id="@+id/dialog_iknow_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
         android:layout_below="@id/dialog_msgtext2_view"
+        android:layout_centerHorizontal="true"
         android:layout_marginTop="@dimen/dialog_iknowbutton_margin"
         android:background="@drawable/iknow_btn_up" />
 
