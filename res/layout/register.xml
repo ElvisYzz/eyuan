@@ -17,7 +17,8 @@
             android:text="账号" />
 
         <EditText
-            android:id="@+id/register_nickname_text"
+            android:inputType="textEmailAddress"
+            android:id="@+id/register_email_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="5dp"

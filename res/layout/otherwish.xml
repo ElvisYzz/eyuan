@@ -19,7 +19,7 @@
             android:background="@drawable/otherwish_achievingbtn_down" />
 
         <Button
-            android:id="@+id/other_achieved_button"
+            android:id="@+id/otherwish_achieved_button"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"

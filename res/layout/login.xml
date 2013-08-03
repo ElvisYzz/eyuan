@@ -25,7 +25,8 @@
                 android:background="@drawable/login_nickname_pic" />
 
             <EditText
-                android:id="@+id/login_nickname_text"
+                android:inputType="textEmailAddress"
+                android:id="@+id/login_email_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
