@@ -11,12 +11,14 @@
     <dimen name="wishcontent_wishlist_size">15sp</dimen>
     <dimen name="wishcontent_achievebutton_margin">12dp</dimen>
     <!-- end of wishcontent.xml -->
-    
+
+
     <!-- this is for submit.xml -->
     <dimen name="submit_up_margin">24dp</dimen>
     <dimen name="submit_font_size">18sp</dimen>
     <!-- end of submit.xml -->
-    
+
+
     <!-- this is for achievedwish.xml -->
     <dimen name="achievedwish_avatar_margin">24dp</dimen>
     <dimen name="achievedwish_comment_margin">24dp</dimen>
@@ -26,7 +28,8 @@
     <dimen name="achievedwish_locationpic_margin">3dp</dimen>
     <dimen name="achievedwish_wishtext_size">15sp</dimen>
     <!-- end of achievedwish.xml -->
-    
+
+
     <!-- this is for comment.xml -->
     <dimen name="comment_avatar_margin">12dp</dimen>
     <dimen name="comment_textview_margin">12dp</dimen>
@@ -34,7 +37,8 @@
     <dimen name="comment_commitcommentbtn_margin">12dp</dimen>
     <dimen name="comment_editcommenttextfont_size">18sp</dimen>
     <!-- end of comment.xml -->
-    
+
+
     <!-- this is for achievingwish.xml -->
     <dimen name="achievingwish_avatar_margin">24dp</dimen>
     <dimen name="achievingwish_comment_margin">24dp</dimen>
@@ -46,35 +50,47 @@
     <dimen name="achievingwish_confirmbtn_margin">12dp</dimen>
     <dimen name="achievingwish_cancelbtn_margin">12dp</dimen>
     <!-- end of achievingwish.xml -->
-    
+
+
     <!-- this is for registerinfo.xml -->
     <dimen name="registerinfo_avatar_margin">24dp</dimen>
     <!-- end of registerinfo.xml -->
-    
+
+
     <!-- this is for titleleft.xml -->
     <dimen name="titleleft_bg_padding">3dp</dimen>
     <dimen name="titleleft_backbutton_margin">12dp</dimen>
     <!-- end of lefttitle.xml -->
-    
+
+
     <!-- this is for dialog.xml -->
     <dimen name="dialog_msgtext1_margin">12dp</dimen>
     <dimen name="dialog_iknowbutton_margin">24dp</dimen>
     <!-- end of dialog.xml -->
-    
+
+
     <!-- this is for titlesubmit.xml -->
     <dimen name="titlesubmit_bg_padding">3dp</dimen>
     <dimen name="titlesubmit_backbuttom_margin">12dp</dimen>
     <dimen name="titlesubmit_commitbutton_margin">12dp</dimen>
     <!-- end of titlesubmit.xml -->
-    
+
+
     <!-- this is for register.xml -->
     <dimen name="register_pwd_margin">12dp</dimen>
     <dimen name="register_pwdconfirm_margin">12dp</dimen>
     <dimen name="register_alert_height">30dp</dimen>
     <!-- end of register.xml -->
-    
+
+
     <!-- this is for login.xml -->
     <dimen name="login_alert_height">30dp</dimen>
     <dimen name="login_registerbutton_margin">24dp</dimen>
     <!-- end of login.xml -->
+
+
+    <!-- this is for wishTitle style -->
+    <dimen name="title_size">40dp</dimen>
+    <!-- end of wishTitle style -->
+
 </resources>
