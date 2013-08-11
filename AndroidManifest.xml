@@ -20,10 +20,11 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.eyuan.www.SplashScreen"
+            android:name="com.eyuan.www.RegisterActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.NoTitleBar" >
+            android:theme="@style/wishTitle"
+            android:windowSoftInputMode="adjustResize" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -32,6 +33,50 @@
         </activity>
         <activity
             android:name="com.eyuan.www.RegisterInfoActivity"
+            android:label="@string/app_name"
+            android:theme="@style/wishTitle"
+            android:windowSoftInputMode="adjustResize" >
+        </activity>
+        <activity
+            android:name="com.eyuan.www.AchievedActivity"
+            android:label="@string/app_name"
+            android:theme="@style/wishTitle" >
+        </activity>
+        <activity
+            android:name="com.eyuan.www.AchievingActivity"
+            android:label="@string/app_name"
+            android:theme="@style/wishTitle" >
+        </activity>
+        <activity
+            android:name="com.eyuan.www.CommentActivity"
+            android:label="@string/app_name"
+            android:theme="@style/wishTitle"
+            android:windowSoftInputMode="adjustResize" >
+        </activity>
+        <activity
+            android:name="com.eyuan.www.WishContentActivity"
+            android:label="@string/app_name"
+            android:theme="@style/wishTitle" >
+        </activity>
+        <activity
+            android:name="com.eyuan.www.SubmitActivity"
+            android:label="@string/app_name"
+            android:theme="@style/wishTitle"
+            android:windowSoftInputMode="adjustResize" >
+        </activity>
+        <activity
+            android:name="com.eyuan.www.LoginActivity"
+            android:label="@string/app_name"
+            android:theme="@style/wishTitle"
+            android:windowSoftInputMode="adjustResize" >
+        </activity>
+        <activity
+            android:name="com.eyuan.www.OtherWishActivity"
+            android:label="@string/app_name"
+            android:theme="@style/wishTitle" >
+        </activity>
+        <activity
+            android:name="com.eyuan.www.MyWishActivity"
             android:label="@string/app_name"
             android:theme="@style/wishTitle" >
         </activity>
